@@ -19,25 +19,6 @@
 			"review": "Very reliable, you can be sure of the delivery where ever you are in the country."
 		}
 	],
-	"jiji": [{
-			"id": 1,
-			"name": "Dan m",
-			"reviewtittle": "WARNING DO NOT BUY HERE!!",
-			"review": "WARNING DO NOT BUY THIS!!! This is false advertising!!! The title say Zojirushi stainless steel mug, but it is a CHINESE KNOCK OFF!!! "
-		},
-		{
-			"id": 2,
-			"name": "Jay",
-			"reviewtittle": "Service delivery",
-			"review": "Nice marketplace. Receive products before paying that's all you will be fine. And ensure you meet In an open place."
-		},
-		{
-			"id": 3,
-			"name": "Edward B",
-			"reviewtittle": "Stay away from these guys.",
-			"review": "It was personal and friendly and genuine. Great people to work with and interact with."
-		}
-	],
 	"alibaba": [{
 			"id": 1,
 			"name": "RKG",
@@ -88,25 +69,6 @@
 			"review": "The customer service from Amanda was excellent and the parts produced from the mold were perfect - all for a price that was among the lowest quotes we received."
 		}
 	],
-	"killmall": [{
-			"id": 1,
-			"name": "Mr Anmol",
-			"reviewtittle": "Suppliers for beginners as well",
-			"review": "The supplier was great to deal with. I was made so comfortable during the whole process altogether. Highly recommend."
-		},
-		{
-			"id": 2,
-			"name": "Ryan Smith",
-			"reviewtittle": "I forgot the date",
-			"review": "They delivered something I've been wanting for a very long time at a very fair price and with great customer service."
-		},
-		{
-			"id": 3,
-			"name": "James",
-			"reviewtittle": "Best experience",
-			"review": "Fast shipment and turn around. High quality leather and the design was extremely accurate."
-		}
-	],
 	"ebay": [{
 			"id": 1,
 			"name": "Ricardo Joao",
@@ -130,25 +92,6 @@
 			"name": "customer",
 			"reviewtittle": "Best experience",
 			"review": "It was personal and friendly and genuine. Great people to work with and interact with."
-		}
-	],
-	"zappos": [{
-			"id": 1,
-			"name": "Kerri",
-			"reviewtittle": "Customer service was great",
-			"review": "Maria in Customer service department was great! I reached out via chat option, and she was able to help me out and fix my issue within 5 minutes. Great service, you normally don’t come across such stellar service with online retailers. "
-		},
-		{
-			"id": 2,
-			"name": "Denise Fuentes",
-			"reviewtittle": "Great shoes and great items we shop",
-			"review": "Great shoes and great items we shop many time and very happy with it ;) will be back for sure"
-		},
-		{
-			"id": 3,
-			"name": "James",
-			"reviewtittle": "Zappos is the best!",
-			"review": "I have had nothing but great experiences with Zappo. Prompt shipping; free returns; great selection! Highly recommend!"
 		}
 	]
 }
