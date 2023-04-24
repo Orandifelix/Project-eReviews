@@ -19,25 +19,6 @@
 			"review": "Very reliable, you can be sure of the delivery where ever you are in the country."
 		}
 	],
-	"walmart": [{
-			"id": 1,
-			"name": "Mark Fader",
-			"reviewtittle": "Good Service RUINED by no training",
-			"review": "I'd say every time over at least the past 6 months I've had problems with my deliveries. Drivers don't follow delivery instructions."
-		},
-		{
-			"id": 2,
-			"name": "Karey Netz",
-			"reviewtittle": "OVERCHARGED EVERY TIME!!",
-			"review": "Just a warning..when you order online for grocery pick up or delivery...be prepared to be temporarily charged $100 more than your total actually is!"
-		},
-		{
-			"id": 3,
-			"name": "Owen",
-			"reviewtittle": "Thanks to Russel the muscle",
-			"review": "Thank you Russel we have good funny conversation every time we go there and he delivers our orders I have fun when I go to the tell city Walmart"
-		}
-	],
 	"jiji": [{
 			"id": 1,
 			"name": "Dan m",
@@ -107,31 +88,6 @@
 			"review": "The customer service from Amanda was excellent and the parts produced from the mold were perfect - all for a price that was among the lowest quotes we received."
 		}
 	],
-	"etsy": [{
-			"id": 1,
-			"name": "Deena",
-			"reviewtittle": "Super reliable seller and great product",
-			"review": "Super reliable seller, excellent product condition and fast delivery. It was like buying on etsy or any other type of local service."
-		},
-		{
-			"id": 2,
-			"name": "Darren",
-			"reviewtittle": "This was fast and easy",
-			"review": "This was fast and easy. The sight kept me updated all the way through the order, shipping and delivery process."
-		},
-		{
-			"id": 3,
-			"name": "Melissa",
-			"reviewtittle": "Service was efficient and professional",
-			"review": "Service was efficient and professional. Delivery arrived ahead of time and the product was great quality and exactly as we ordered."
-		},
-		{
-			"id": 4,
-			"name": "Louis",
-			"reviewtittle": "very fast",
-			"review": "I have to congratulate you, I have never received a product so quickly, I congratulate you"
-		}
-	],
 	"killmall": [{
 			"id": 1,
 			"name": "Mr Anmol",
@@ -149,31 +105,6 @@
 			"name": "James",
 			"reviewtittle": "Best experience",
 			"review": "Fast shipment and turn around. High quality leather and the design was extremely accurate."
-		}
-	],
-	"copia": [{
-			"id": 1,
-			"name": "Oscar",
-			"reviewtittle": "All in one place",
-			"review": "Easy to find products and manufacturers. FOllow up is very useful and all the tools available to connect and exchange requirements and points of view."
-		},
-		{
-			"id": 2,
-			"name": "Jose",
-			"reviewtittle": "Exellent job done.",
-			"review": "An excellent job, very good result and great communication throughout the design process by copia. Fast shipping. Highly recommended company."
-		},
-		{
-			"id": 3,
-			"name": "Sharon",
-			"reviewtittle": "Really very satisfied",
-			"review": "Really very satisfied with the products received that without surprise conform to those ordered. I am very satisfied with the quality of the products I received."
-		},
-		{
-			"id": 4,
-			"name": "Fred",
-			"reviewtittle": "Better than expected device",
-			"review": "This company shipped immediately and followed up with clear expectations. the device itself is in good working order and easy to use."
 		}
 	],
 	"ebay": [{
