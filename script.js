@@ -24,10 +24,12 @@ function fetchReviews(resource) {
           nameElem.innerText = review.name;
           const ratingElem = document.createElement("span");
           ratingElem.innerText = review.rating;
+
+          nameElem.appendChild(ratingElem)
   
           toprow.appendChild(thumbnail);
           toprow.appendChild(nameElem);
-          toprow.appendChild(ratingElem);
+          
   
           const bottomrow = document.createElement("div");
           bottomrow.setAttribute("id", "bottomrow")
