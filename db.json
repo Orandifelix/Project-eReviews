@@ -1,6 +1,7 @@
 {
 	"jumia": [{
 			"id": 1,
+			"thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
 			"name": "Caroline",
 			"reviewtittle": "Can't report issue",
 			"review": "Seller didn't ship so after the handling time had past I contacted them. They told me they don't have the item and can't figure out how to cancel the sale."
@@ -8,12 +9,14 @@
 
 		{
 			"id": 2,
+			"thumbnail": "https://plus.unsplash.com/premium_photo-1664451177876-cac172a28ab8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
 			"name": "Lambertini",
 			"reviewtittle": "Great app for purchasing all items.",
 			"review": "Great app for purchasing all items... Makes online selling sweet and affordable safe and fast way to buy products..."
 		},
 		{
 			"id": 3,
+			"thumbnail": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
 			"name": "Issah Bukari",
 			"reviewtittle": "Very reliable",
 			"review": "Very reliable, you can be sure of the delivery where ever you are in the country."
@@ -21,24 +24,28 @@
 	],
 	"alibaba": [{
 			"id": 1,
+			"thumbnail": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
 			"name": "RKG",
 			"reviewtittle": "great product",
 			"review": "I ordered jute placemats and was nervous about the delivery time and what the quality would be."
 		},
 		{
 			"id": 2,
+			"thumbnail": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
 			"name": "J De Bruin",
 			"reviewtittle": "Delivered as promised",
 			"review": "Delivered as promised. Printer very good professional quality, affordable price and easy to install."
 		},
 		{
 			"id": 3,
+			"thumbnail": "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
 			"name": "Nisa",
 			"reviewtittle": "Phenomenal Customer Service",
 			"review": "Their customer service really set them apart for me. Winnie Zhang was exceptional in answering questions and providing guidance throughout the entire process."
 		},
 		{
 			"id": 4,
+			"thumbnail": "https://images.unsplash.com/photo-1484863137850-59afcfe05386?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
 			"name": "Andre Nakaso",
 			"reviewtittle": "Very professional and positive",
 			"review": "Very professional and positive experience working with this supplier. Nice quality product, fast communications and replies to our questions."
@@ -46,24 +53,28 @@
 	],
 	"amazon": [{
 			"id": 1,
+			"thumbnail": "https://images.unsplash.com/photo-1492567291473-fe3dfc175b45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=384&q=80",
 			"name": "TG",
 			"reviewtittle": "From start to delivery",
 			"review": "From start to delivery, a smooth process. All questions answered and great service. No issues with language barriers. Products arrived very well packaged."
 		},
 		{
 			"id": 2,
+			"thumbnail": "https://images.unsplash.com/photo-1517586979036-b7d1e86b3345?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
 			"name": "Kinsley",
 			"reviewtittle": "Just as ordered",
 			"review": "Just as ordered! Shipped quickly! Representative was professional and efficient!"
 		},
 		{
 			"id": 3,
+			"thumbnail": "https://images.unsplash.com/photo-1659482633371-c51d3a02bc81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
 			"name": "Zuleika",
 			"reviewtittle": "Great quality and design",
 			"review": "Great quality and design. I was surprised with it and it came before the delivery date. "
 		},
 		{
 			"id": 4,
+			"thumbnail": "https://plus.unsplash.com/premium_photo-1675088136456-4eb83fc5b827?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
 			"name": "Jake",
 			"reviewtittle": "Great Price, Customer Service, And Parts.",
 			"review": "The customer service from Amanda was excellent and the parts produced from the mold were perfect - all for a price that was among the lowest quotes we received."
@@ -71,24 +82,28 @@
 	],
 	"ebay": [{
 			"id": 1,
+			"thumbnail": "https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80",
 			"name": "Ricardo Joao",
 			"reviewtittle": "No protection for the buyer",
 			"review": "Ebay approved a purchase and then suspended my account with no further information. Profoundly unprofessional."
 		},
 		{
 			"id": 2,
+			"thumbnail": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
 			"name": "John in the Backyard",
 			"reviewtittle": "EBAY is unresponsive",
 			"review": "It was personal and friendly and genuine. Great people to work with and interact with."
 		},
 		{
 			"id": 3,
+			"thumbnail": "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
 			"name": "James",
 			"reviewtittle": "I Know i can Trust eBay for Online Shopping.",
 			"review": "It was personal and friendly and genuine. Great people to work with and interact with."
 		},
 		{
 			"id": 4,
+			"thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
 			"name": "customer",
 			"reviewtittle": "Best experience",
 			"review": "It was personal and friendly and genuine. Great people to work with and interact with."
