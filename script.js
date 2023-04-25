@@ -50,6 +50,49 @@ function fetchReviews(resource) {
         console.log(error);
       });
   }
+
+
+  const form = document.querySelector('.review-form');
+  form.addEventListener('submit', (event) => {
+    event.preventDefault(); // prevent the default form submission behavior
+  
+    const name = document.querySelector('#input-name').value;
+    const thumbnail = document.querySelector('#imgurl').value;
+    const reviewTitle = document.querySelector('#review-tittle').value;
+    const review = document.querySelector('#input-review').value;
+    const resource = document.querySelector('#input-shop').value;
+  
+    const reviewData = {
+      thumbnail,
+      name,
+      reviewtittle: reviewTitle,
+      review,
+      resource
+    };
+  
+    // send the review data to the appropriate resource inputted in  the  form
+    const url = `http://localhost:3000/${resource}`;
+    fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(reviewData)
+    })
+    .then(response => {
+      if (response.ok) {
+        console.log(`Review posted to ${resource} successfully`);
+        form.reset();
+      } else {
+        console.error(`Error posting review to ${resource}: ${response.status}`);
+      }
+    })
+    .catch(error => {
+      console.error(`Error posting review to ${resource}: ${error}`);
+    });
+  });
+  
+
   
 
 function addButtonListeners() {
