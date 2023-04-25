@@ -1,29 +1,66 @@
 const apiUrl = "http://localhost:3000";
 
-function fetchContent() {
-  const resources = ["jumia", "alibaba", "amazon", "ebay"];
-
-  const promises = resources.map(resource => {
+function fetchReviews(resource) {
     const url = `${apiUrl}/${resource}`;
-    return fetch(url).then(response => response.json());
-  });
-
-  Promise.all(promises)
-    .then(data => {
-      console.log(data); // Array of all resources data
-      // You can manipulate the data and DOM here
-      const ecommerceDiv = document.querySelector(".ecommerce");
-      data.forEach((resourceData, index) => {
-        const shopDiv = document.createElement("div");
-        const shopName = document.createElement("h2");
-        shopName.innerText = resources[index];
-        shopDiv.appendChild(shopName);
-        ecommerceDiv.appendChild(shopDiv);
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        console.log(data); // Array of reviews data
+        // You can manipulate the data and DOM here
+        
+        // Clear previous reviews
+        const reviewsGrid = document.querySelector(".review-grid");
+        reviewsGrid.innerHTML = "";
+  
+        data.forEach(review => {
+          const reviewContainer = document.createElement("div");
+          reviewContainer.className = "review-container";
+          
+          const toprow = document.createElement("div");
+          toprow.setAttribute("id", "toprow");
+          const thumbnail = document.createElement("img");
+          thumbnail.src = review.thumbnail;
+          const nameElem = document.createElement("h4");
+          nameElem.innerText = review.name;
+          const ratingElem = document.createElement("span");
+          ratingElem.innerText = review.rating;
+  
+          toprow.appendChild(thumbnail);
+          toprow.appendChild(nameElem);
+          toprow.appendChild(ratingElem);
+  
+          const bottomrow = document.createElement("div");
+          bottomrow.setAttribute("id", "bottomrow")
+          const reviewTitleElem = document.createElement("h3");
+          reviewTitleElem.innerText = review.reviewtittle;
+          const reviewElem = document.createElement("p");
+          reviewElem.innerText = review.review;
+          
+          bottomrow.appendChild(reviewTitleElem);
+          bottomrow.appendChild(reviewElem);
+  
+          reviewContainer.appendChild(toprow);
+          reviewContainer.appendChild(bottomrow);
+  
+          reviewsGrid.appendChild(reviewContainer);
+        });
+      })
+      .catch(error => {
+        console.log(error);
       });
-    })
-    .catch(error => {
-      console.log(error);
+  }
+  
+
+function addButtonListeners() {
+  const buttons = document.querySelectorAll(".ecommerce button");
+  buttons.forEach(button => {
+    button.addEventListener("click", function() {
+      const resource = this.getAttribute("data-resource");
+      fetchReviews(resource);
     });
+  });
 }
 
-document.addEventListener("DOMContentLoaded", fetchContent);
+document.addEventListener("DOMContentLoaded", function() {
+  addButtonListeners();
+});
