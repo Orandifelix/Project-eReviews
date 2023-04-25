@@ -1,0 +1,222 @@
+
+.container{
+    /* padding: 0px 1rem; */
+  }
+  
+  .landing {
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(207, 197, 197);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url('https://images.unsplash.com/photo-1633613286991-611fe299c4be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+
+  .landing div h2 {
+    font-size: 2.9rem;
+    color: rgb(56, 44, 44);
+    
+  }
+
+  .landing div h2 span{
+    color: green;
+  }
+
+  .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+    width: 300px;
+  }
+  
+  input[type="text"]:focus {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+  }
+
+  .commerce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    
+  }
+
+  .ecommerce {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 10px;
+  }
+  
+  .commerce h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .ecommerce div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(224, 211, 211);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+  }
+
+  .ecommerce div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    background-color: #e6dfdf;
+  }
+  
+  .ecommerce div h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #025802;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-weight: 300;
+    transition: transform 0.4s ease, color .4s ease;
+  }
+
+  .ecommerce div h2:hover{
+    color: rgb(22, 134, 209);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .ecommerce div {
+      width: 100%;
+    }
+  }
+
+  .topreviews {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .topreviews h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  
+  .review-grid {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 10px;
+    
+  }
+  
+  .review-grid div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  @media screen and (max-width: 768px) {
+  .review-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .review-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+#toprow{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 0;
+  border: none;
+}
+
+#toprow h4{
+  color: #363434;
+  padding: 5px;
+}
+
+#toprow h4 span{
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+
+#toprow img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+#bottomrow{
+  margin: 5px;
+
+}
+#bottomrow h3 {
+  font-size: 16px;
+}
+
+#bottomrow p {
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+

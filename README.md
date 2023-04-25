@@ -55,8 +55,8 @@ Open the application on your browser `127.0.0.1:8000`.
 ## Contact Information   
 For any contributions towards this project:
 
-*Email: felixorandi@gmail.com
-*Phone: 0707010988
+* Email: felixorandi@gmail.com
+* Phone: 0707010988
   
 ## License 
 
