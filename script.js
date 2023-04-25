@@ -6,7 +6,6 @@ function fetchReviews(resource) {
       .then(response => response.json())
       .then(data => {
         console.log(data); // Array of reviews data
-        // You can manipulate the data and DOM here
         
         // Clear previous reviews
         const reviewsGrid = document.querySelector(".review-grid");
