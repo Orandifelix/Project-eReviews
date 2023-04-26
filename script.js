@@ -52,38 +52,39 @@ function fetchReviews(resource) {
   }
 
 
-  const form = document.querySelector('.review-form');
-  form.addEventListener('submit', (event) => {
-    event.preventDefault(); // prevent the default form submission behavior
-  
-    const stars = document.querySelectorAll('.star');
-    const ratingInput = document.createElement('input');
-    ratingInput.type = 'hidden';
-    ratingInput.name = 'rating';
-    document.querySelector('.review-form').appendChild(ratingInput);
-  
-    stars.forEach((star) => {
-      star.addEventListener('click', (e) => {
-        const rating = e.target.getAttribute('data-rating');
-        ratingInput.value = rating;
-        stars.forEach((s) => s.classList.remove('active'));
-        star.classList.add('active');
-      });
-    });
-  
-    const name = document.querySelector('#input-name').value;
-    const thumbnail = document.querySelector('#imgurl').value;
-    const reviewTitle = document.querySelector('#review-tittle').value;
-    const review = document.querySelector('#input-review').value;
-    const resource = document.querySelector('#input-shop').value;
-  
-    const reviewData = {
-      rating: ratingInput.value,
-      thumbnail,
-      name,
-      reviewtittle: reviewTitle,
-      review
-    };
+
+  const stars = document.querySelectorAll('.star1');
+console.log(stars);
+
+let ratingValue;
+
+stars.forEach(function(star) {
+  star.addEventListener('click', function() {
+    const rating = this.getAttribute('data-rating');
+    console.log('Rating: ' + rating);
+    ratingValue = rating;
+  });
+});
+
+const form = document.querySelector('.review-form');
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // prevent the default form submission behavior
+
+  const name = document.querySelector('#input-name').value;
+  const thumbnail = document.querySelector('#imgurl').value;
+  const reviewTitle = document.querySelector('#review-tittle').value;
+  const review = document.querySelector('#input-review').value;
+  const resource = document.querySelector('#input-shop').value;
+
+  const reviewData = {
+    rating: ratingValue,
+    thumbnail,
+    name,
+    reviewtittle: reviewTitle,
+    review,
+  };
+
+  console.log('Review data:', reviewData);
   
     // send the review data to the appropriate resource inputted in the form
     const url = `http://localhost:3000/${resource}`;

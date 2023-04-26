@@ -354,7 +354,7 @@ form #input-submit {
   border-radius: 7px;
 }
 
-.star {
+.star, .star1 {
   font-size: 36px;
   color: #ffffff;
   cursor: pointer;
@@ -364,6 +364,8 @@ form #input-submit {
 }
 
 .star:hover,
-.star.active {
+.star.active
+.star1:hover,
+.star1.active.active  {
   color: #077215;
 }
