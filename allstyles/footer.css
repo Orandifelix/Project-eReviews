@@ -15,14 +15,29 @@
     display: flex;
     padding: 20px;
     justify-content: space-around;
-    color: white;
+
+    
   }
+.footer div h3{
+  font-size: 16px;
+  color: rgb(236, 231, 231);
+  margin: 8px;
+  padding: 5px;
+}
+
+.footer div ul li a{
+  color: rgb(228, 223, 223);
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
   
 .terms ul{
     display: flex;
     justify-content: space-around;
     margin: 10px;
     padding: 10px;
+    font-size: 14px
    
 }
 .terms ul li a{
@@ -33,7 +48,7 @@
 
 .copyright {
     margin: auto;
-    color: rgb(204, 199, 199);
+    color: rgb(221, 209, 209);
     font-size: 0.8rem;
     padding: 10px;
 }

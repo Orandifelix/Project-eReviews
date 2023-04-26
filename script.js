@@ -56,6 +56,21 @@ function fetchReviews(resource) {
   form.addEventListener('submit', (event) => {
     event.preventDefault(); // prevent the default form submission behavior
   
+    const stars = document.querySelectorAll('.star');
+    const ratingInput = document.createElement('input');
+    ratingInput.type = 'hidden';
+    ratingInput.name = 'rating';
+    document.querySelector('.review-form').appendChild(ratingInput);
+  
+    stars.forEach((star) => {
+      star.addEventListener('click', (e) => {
+        const rating = e.target.getAttribute('data-rating');
+        ratingInput.value = rating;
+        stars.forEach((s) => s.classList.remove('active'));
+        star.classList.add('active');
+      });
+    });
+  
     const name = document.querySelector('#input-name').value;
     const thumbnail = document.querySelector('#imgurl').value;
     const reviewTitle = document.querySelector('#review-tittle').value;
@@ -63,14 +78,14 @@ function fetchReviews(resource) {
     const resource = document.querySelector('#input-shop').value;
   
     const reviewData = {
+      rating: ratingInput.value,
       thumbnail,
       name,
       reviewtittle: reviewTitle,
-      review,
-      resource
+      review
     };
   
-    // send the review data to the appropriate resource inputted in  the  form
+    // send the review data to the appropriate resource inputted in the form
     const url = `http://localhost:3000/${resource}`;
     fetch(url, {
       method: 'POST',
@@ -91,6 +106,7 @@ function fetchReviews(resource) {
       console.error(`Error posting review to ${resource}: ${error}`);
     });
   });
+  
   
 
   

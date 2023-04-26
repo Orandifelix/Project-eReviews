@@ -159,6 +159,22 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid rgb(224, 211, 211);
   }
+
+  .review-container {
+    background-color: #f5f1f1;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(224, 211, 211);
+  }
   
   .review-grid #review-container {
     margin: 10px;
@@ -235,27 +251,44 @@
   grid-template-columns: 1fr 1fr;
   gap: 0px;
   border-radius: 10px;
-  background-color: #e2dfdf;
+  background-color: #d4cfcf;
 }
 
 .text{
-  height: 430px;
-  background-image: url('https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  height: 450px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   padding: 10px;
   margin: 0px 0px;
   display: grid;
-  opacity: 0.9;
+  border-radius: 20px;
+  position: relative;
 
+
+}
+
+.text img{
+  height: 530px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: fit-content;
+  opacity: 0.8;
+  border-radius: 10px;
 }
 
 .text h3{
   font-size: 50px;
   margin: auto;
   color: rgb(255, 255, 255);
-  font-weight: 700;
+  font-weight: 900;
+  align-self: center;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  
+
 }
 
 .review-form{
@@ -265,7 +298,7 @@
   max-width: 600px;
   text-align: center;
   margin: 0px;
-  background-color: #e2dfdf;
+  background-color: #d4cfcf;
 }
 
 form #input-shop{
@@ -304,6 +337,12 @@ form textarea {
 
 
 }
+form label{
+  padding: 4px;
+  margin: 2px 10px;
+  font-size: 16px;
+  font-weight: 200;
+}
 
 form #input-submit {
   color: white;
@@ -312,4 +351,18 @@ form #input-submit {
   margin: 10px;
   height: 30px;
   border-radius: 7px;
+}
+
+.star {
+  font-size: 36px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 5px;
+  margin: 2px;
+}
+
+.star:hover,
+.star.active {
+  color: #077215;
 }

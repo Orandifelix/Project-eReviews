@@ -2,7 +2,7 @@
   "jumia": [
     {
       "id": 1,
-      "rating": "Rated 5 stars",
+      "rating": 3,
       "thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "name": "Caroline",
       "reviewtittle": "Can't report issue",
@@ -10,6 +10,7 @@
     },
     {
       "id": 2,
+      "rating": 4,
       "thumbnail": "https://plus.unsplash.com/premium_photo-1664451177876-cac172a28ab8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "name": "Lambertini",
       "reviewtittle": "Great app for purchasing all items.",
@@ -17,6 +18,7 @@
     },
     {
       "id": 3,
+      "rating": 3,
       "thumbnail": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
       "name": "Issah Bukari",
       "reviewtittle": "Very reliable",
@@ -28,20 +30,22 @@
       "reviewtittle": "Good Good ",
       "review": "The service is great and for the most part works when taking unscrupulous organisations and holding them to account. By putting their misdemeanours in the public forum, eReviews gives a voice to all those who are hard done by and hit a brick wall with shady or just plain bad businesses. Keep up the good work and thanks",
       "resource": "jumia",
+      "rating": 3,
       "id": 4
     },
     {
-      "thumbnail": "",
-      "name": "",
-      "reviewtittle": "",
-      "review": "",
-      "resource": "jumia",
+      "rating": "",
+      "thumbnail": "https://images.unsplash.com/photo-1612864858747-9b64bd6b0f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "name": "Jacob",
+      "reviewtittle": "Ebay all  the day",
+      "review": "The service is great and for the most part works when taking unscrupulous organisations and holding them to account. By putting their misdemeanours in the public forum, eReviews gives a voice to all those who are hard done by and hit a brick wall with shady or just plain bad businesses. Keep up the good work and thanks",
       "id": 5
     }
   ],
   "alibaba": [
     {
       "id": 1,
+      "rating": 3,
       "thumbnail": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "name": "RKG",
       "reviewtittle": "great product",
@@ -49,6 +53,7 @@
     },
     {
       "id": 2,
+      "rating": 5,
       "thumbnail": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "name": "J De Bruin",
       "reviewtittle": "Delivered as promised",
@@ -56,6 +61,7 @@
     },
     {
       "id": 3,
+      "rating": 4,
       "thumbnail": "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "name": "Nisa",
       "reviewtittle": "Phenomenal Customer Service",
@@ -63,6 +69,7 @@
     },
     {
       "id": 4,
+      "rating": 5,
       "thumbnail": "https://images.unsplash.com/photo-1484863137850-59afcfe05386?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
       "name": "Andre Nakaso",
       "reviewtittle": "Very professional and positive",
@@ -72,6 +79,7 @@
   "amazon": [
     {
       "id": 1,
+      "rating": 4,
       "thumbnail": "https://images.unsplash.com/photo-1492567291473-fe3dfc175b45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=384&q=80",
       "name": "TG",
       "reviewtittle": "From start to delivery",
@@ -79,6 +87,7 @@
     },
     {
       "id": 2,
+      "rating": 3,
       "thumbnail": "https://images.unsplash.com/photo-1517586979036-b7d1e86b3345?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
       "name": "Kinsley",
       "reviewtittle": "Just as ordered",
@@ -86,6 +95,7 @@
     },
     {
       "id": 3,
+      "rating": 5,
       "thumbnail": "https://images.unsplash.com/photo-1659482633371-c51d3a02bc81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "name": "Zuleika",
       "reviewtittle": "Great quality and design",
@@ -93,23 +103,17 @@
     },
     {
       "id": 4,
+      "rating": 4,
       "thumbnail": "https://plus.unsplash.com/premium_photo-1675088136456-4eb83fc5b827?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
       "name": "Jake",
       "reviewtittle": "Great Price, Customer Service, And Parts.",
       "review": "The customer service from Amanda was excellent and the parts produced from the mold were perfect - all for a price that was among the lowest quotes we received."
-    },
-    {
-      "thumbnail": "https://images.unsplash.com/photo-1633643333515-ef3727546bd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "name": "Orandi",
-      "reviewtittle": "Good Good ",
-      "review": "fdfsdfff",
-      "resource": "amazon",
-      "id": 5
     }
   ],
   "ebay": [
     {
       "id": 1,
+      "rating": 1,
       "thumbnail": "https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=843&q=80",
       "name": "Ricardo Joao",
       "reviewtittle": "No protection for the buyer",
@@ -117,6 +121,7 @@
     },
     {
       "id": 2,
+      "rating": 2,
       "thumbnail": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
       "name": "John in the Backyard",
       "reviewtittle": "EBAY is unresponsive",
@@ -124,6 +129,7 @@
     },
     {
       "id": 3,
+      "rating": 5,
       "thumbnail": "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "name": "James",
       "reviewtittle": "I Know i can Trust eBay for Online Shopping.",
@@ -131,6 +137,7 @@
     },
     {
       "id": 4,
+      "rating": 4,
       "thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
       "name": "customer",
       "reviewtittle": "Best experience",
@@ -142,7 +149,17 @@
       "reviewtittle": "Too good I love  it  ",
       "review": "“Been going to the this gym since it’s been open and have always had a good experience, great gym and friendly staff",
       "resource": "ebay",
-      "id": 5
+      "id": 5,
+      "rating": 4
+    },
+    {
+      "thumbnail": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "name": "Jacob",
+      "reviewtittle": "Ebay all  the day",
+      "review": "“I enjoy to use your service it's amazing transection company it's Very easy very simple very Good options about everything I'm sending money to Morocco and Türk...”",
+      "resource": "ebay",
+      "id": 6,
+      "rating": 4
     }
   ]
 }
