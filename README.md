@@ -4,7 +4,7 @@
 >Developed By  [Orandi-Felix](https://github.com/Orandifelix)  
   
 ## Description  
->Its an online review platform that aggregates and analyzes reviews for online shops across various industries. The users would be able to write and read reviews.
+>This is an online review platform that aggregates and analyzes reviews for online ecommerce shops across various industries. The users would be able to write and read reviews.
 
 ##  Live Link  
 >[View Site](https://gram-mn.herokuapp.com)  to visit the site
@@ -27,20 +27,16 @@ https://github.com/Orandifelix/Project-eReviews/gram.git
 ##### Open terminal and  navigate into the folder
  ```bash 
 cd Project-eReviews
-```
-##### Install and activate Virtual  
- ```bash 
-pipenv shell 
-```  
+``` 
 ##### Run the application  
  ```bash 
- python manage.py runserver 
+ json-server --watch db.json
+
 ``` 
 ##### Testing the application  
- ```bash 
- python manage.py test 
-```
-Open the application on your browser `127.0.0.1:8000`.  
+ ```
+  Run the site live on  your  preffered web browser.
+``` 
   
 ## Technology used  
   
@@ -56,7 +52,7 @@ Open the application on your browser `127.0.0.1:8000`.
 For any contributions towards this project:
 
 * Email: felixorandi@gmail.com
-* Phone: 0707010988
+* Linkedin: (https://www.linkedin.com/in/orandi-felix/)
   
 ## License 
 
@@ -66,4 +62,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IT IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
