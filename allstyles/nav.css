@@ -59,3 +59,29 @@
   .links ul li a :hover{
     color: #63a3ec;
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .nav {
+        height: auto;
+    }
+
+    #logo {
+        font-size: 1.2rem;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    #logo span {
+        font-size: 1.5rem;
+    }
+
+    .links ul {
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
+
+    .links ul li a {
+        margin: 10px 0;
+    }
+}
