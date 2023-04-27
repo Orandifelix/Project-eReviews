@@ -7,7 +7,7 @@
 >This is an online review platform that aggregates and analyzes reviews for online ecommerce shops across various industries. The users would be able to write and read reviews.
 
 ##  Live Link  
->[View Site](https://gram-mn.herokuapp.com)  to visit the site
+>[View Site](https://orandifelix.github.io/Project-eReviews/#Home)  to visit the site
   
 
 ## User Story  
