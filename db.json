@@ -23,39 +23,6 @@
       "name": "Issah Bukari",
       "reviewtittle": "Very reliable",
       "review": "Very reliable, you can be sure of the delivery where ever you are in the country."
-    },
-    {
-      "thumbnail": "https://images.unsplash.com/photo-1633643333515-ef3727546bd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "name": "Orandi",
-      "reviewtittle": "Good Good ",
-      "review": "The service is great and for the most part works when taking unscrupulous organisations and holding them to account. By putting their misdemeanours in the public forum, eReviews gives a voice to all those who are hard done by and hit a brick wall with shady or just plain bad businesses. Keep up the good work and thanks",
-      "resource": "jumia",
-      "rating": 3,
-      "id": 4
-    },
-    {
-      "rating": "",
-      "thumbnail": "https://images.unsplash.com/photo-1612864858747-9b64bd6b0f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      "name": "Jacob",
-      "reviewtittle": "Ebay all  the day",
-      "review": "The service is great and for the most part works when taking unscrupulous organisations and holding them to account. By putting their misdemeanours in the public forum, eReviews gives a voice to all those who are hard done by and hit a brick wall with shady or just plain bad businesses. Keep up the good work and thanks",
-      "id": 5
-    },
-    {
-      "rating": "3",
-      "thumbnail": "https://images.unsplash.com/photo-1633643333515-ef3727546bd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "name": "Orandi",
-      "reviewtittle": "Good Good  Good",
-      "review": "The service is great and for the most part works when taking unscrupulous organisations and holding them to account. By putting their misdemeanours in the public forum, eReviews gives a voice to all those who are hard done by and hit a brick wall with shady or just plain bad businesses. ",
-      "id": 6
-    },
-    {
-      "rating": "1",
-      "thumbnail": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      "name": "Jay",
-      "reviewtittle": "Too good I love  it  to  be  true",
-      "review": "Very reliable, you can be sure of the delivery where ever you are in the country.",
-      "id": 7
     }
   ],
   "alibaba": [
@@ -82,46 +49,6 @@
       "name": "Nisa",
       "reviewtittle": "Phenomenal Customer Service",
       "review": "Their customer service really set them apart for me. Winnie Zhang was exceptional in answering questions and providing guidance throughout the entire process."
-    },
-    {
-      "id": 4,
-      "rating": 5,
-      "thumbnail": "https://images.unsplash.com/photo-1484863137850-59afcfe05386?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-      "name": "Andre Nakaso",
-      "reviewtittle": "Very professional and positive",
-      "review": "Very professional and positive experience working with this supplier. Nice quality product, fast communications and replies to our questions."
-    },
-    {
-      "rating": "5",
-      "thumbnail": "https://images.unsplash.com/photo-1633643333515-ef3727546bd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "name": "Orandi",
-      "reviewtittle": "Good Good ",
-      "review": "jiiojsdklyoihlfjf",
-      "id": 5
-    },
-    {
-      "rating": "2",
-      "thumbnail": "https://images.unsplash.com/photo-1633643333515-ef3727546bd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "name": "Orandi",
-      "reviewtittle": "Good Good ",
-      "review": "The service is great and for the most part works when taking unscrupulous organisations and holding them to account. By putting their misdemeanours in the public forum, eReviews gives a voice to all those who are hard done by and hit a brick wall with shady or just plain bad businesses. Keep up the good work and thanks",
-      "id": 6
-    },
-    {
-      "rating": "4",
-      "thumbnail": "https://images.unsplash.com/photo-1612864858747-9b64bd6b0f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      "name": "Mariam",
-      "reviewtittle": "Good Good ",
-      "review": "I ordered jute placemats and was nervous about the delivery time and what the quality would be.",
-      "id": 7
-    },
-    {
-      "rating": "3",
-      "thumbnail": "https://images.unsplash.com/photo-1633643333515-ef3727546bd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "name": "Orandi",
-      "reviewtittle": "Good Good ",
-      "review": "“I enjoy to use your service it's amazing transection company it's Very easy very simple very Good options about everything I'm sending money to Morocc",
-      "id": 8
     }
   ],
   "amazon": [
@@ -182,47 +109,6 @@
       "name": "James",
       "reviewtittle": "I Know i can Trust eBay for Online Shopping.",
       "review": "It was personal and friendly and genuine. Great people to work with and interact with."
-    },
-    {
-      "id": 4,
-      "rating": 4,
-      "thumbnail": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
-      "name": "customer",
-      "reviewtittle": "Best experience",
-      "review": "It was personal and friendly and genuine. Great people to work with and interact with."
-    },
-    {
-      "thumbnail": "https://images.unsplash.com/photo-1612864858747-9b64bd6b0f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      "name": "Mariam",
-      "reviewtittle": "Too good I love  it  ",
-      "review": "“Been going to the this gym since it’s been open and have always had a good experience, great gym and friendly staff",
-      "resource": "ebay",
-      "id": 5,
-      "rating": 4
-    },
-    {
-      "thumbnail": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      "name": "Jacob",
-      "reviewtittle": "Ebay all  the day",
-      "review": "“I enjoy to use your service it's amazing transection company it's Very easy very simple very Good options about everything I'm sending money to Morocco and Türk...”",
-      "resource": "ebay",
-      "id": 6,
-      "rating": 4
-    },
-    {
-      "thumbnail": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      "name": "Mariam",
-      "reviewtittle": "Too good I love  it  ",
-      "review": "Ebay approved a purchase and then suspended my account with no further information. Profoundly unprofessional.",
-      "id": 7
-    },
-    {
-      "rating": "5",
-      "thumbnail": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      "name": "Orandi",
-      "reviewtittle": "Ebay all  the day",
-      "review": "I am very happy to give credit where credit is due but many times don’t because the process gets too complicated. eReviews makes it very easy to share my experience of online shopping.",
-      "id": 8
     }
   ]
 }
