@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eReviews</title>
     <!-- Font links from Google fonts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
@@ -24,14 +25,14 @@
     <div id="Home" class="main-container">
         <div class="nav">
             <div id="logo">
-                <h1><span><i class="far fa-star fa-sm" style="color: #17c70a;"></i></span>eReviews</h1>
+                <a href="#Home"><span><i class="far fa-star fa-sm" style="color: #17c70a;"></i></span>eReviews</a>
               </div>
               
             <div class="links">
                 <ul>
-                    <li><a href="#Home">Home</a></li>
+                    <!-- <li><a href="#Home">Home</a></li> -->
                     <li><a href="#commerce-shops">E-Commerce</a></li>
-                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Blog">Review</a></li>
                     <li><a href="#Business">Business</a></li>
                 </ul>
             </div>
@@ -112,12 +113,12 @@
                     </div>
                 </div>
             </div>
-            <div class="text-form">
+            <div id="Blog" class="text-form">
                 <div class="text">
                     <img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="pic">
                     <h3>Be heard. <br> Each review has<br> a persona story.</h3>
                 </div>
-                <div id="Blog" class="form-area">
+                <div class="form-area">
                     <form class="review-form">
                         <label for="input-shop">Select a ecommerce Shop:</label>
                         <select id="input-shop" name="resource">
@@ -144,7 +145,17 @@
 
             </div>
             <div id="Business">
-                
+                <div class="left">
+                    <h2>Amplify the voice of your <br>happy customers  and Inspire their <br> confidence</h2>
+                <p>A majority of consumers surveyed would prefer to use open platforms, just like Trustpilot, to get the real, uncensored story. Discover why 73% of US consumers are more likely to buy from a brand with a good Trustpilot score.
+                    <a href="#">Here</a>
+                </p></div>
+                <div class="right">
+                    <h2>Get feedback to fuel growth <br>and Increase website conversions<br> up to 23%</h2>
+                    <p>A majority of consumers surveyed would prefer to use open platforms, just like Trustpilot, to get the real, uncensored story. Discover why 73% of US consumers are more likely to buy from a brand with a good Trustpilot score.
+                        <a href="#">Here</a>
+                </div>
+                <div class="right1"></div>
             </div>
 
 
